@@ -1,0 +1,44 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+
+body,html{
+  height: 100%;
+}
+
+#map{
+  height:100%;
+}
+
+.mapinfo { 
+  height: 100%; 
+  width: 100%; 
+  position:absolute; 
+  top: 0; 
+  left: 0; 
+  z-index: 0; 
+}
+.addressinfo { 
+  position: relative; 
+  z-index: 1; 
+  margin:80px auto  ;
+  padding: 10px;
+  background: black;
+  height: auto;
+  opacity: .45; 
+  color: white;
+}
+   
+.setaddress { 
+  position: relative; 
+  z-index: 1; 
+  width: 50%;
+  margin:80px auto  ;
+  padding: 10px;
+  background: black;
+  height: auto;
+  opacity: .45; 
+  color: white;
+}
+   
